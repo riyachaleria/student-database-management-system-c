@@ -66,6 +66,45 @@ Percentage is automatically calculated after entry/update.
 Uses qsort() for efficient sorting.
 File-safe and memory-safe practices followed.
 
+## 🔐 Admin Login with Hashed Password
+
+This project includes a **secure admin login system** using a **custom hashing function**.
+
+When the program starts, users must enter the correct admin password.  
+The entered password is hashed using the `simplehash()` function and compared with a pre-defined hash value.
+
+### ✅ Default Password
+
+**Password:** `admin@g139`  
+*(You must enter this to access the Student Database Manager)*
+
+🧠 Internally, the password is not stored in plain text.  
+The app stores this hashed value:
+
+```c
+#define password_hash 8246073859955783634
+
+## 🔑 Changing the Admin Password
+
+To change the admin password, you'll need to calculate the hash of your new password using the same hashing method used in the program (`simplehash()`).
+
+Instead of modifying the full project, you can generate the hash using a small helper C program.
+
+🛠️ A file called `hash_generator.c` is included in this repository. Compile and run it to get the hashed value of your desired password:
+
+```bash
+gcc hash_generator.c -o hashgen
+./hashgen
+Enter your new password when needed, and it will give you a hash like:
+
+Hashed value: 7639281883728628837
+Now, go to your main C file and update this line:
+#define password_hash 8246073859955783634
+with:
+#define password_hash 7639281883728628837
+Recompile and you're done!
+✅ This makes your new password active without storing it in plain text.
+
 ## 🤝 Contributing
 
 This is a solo project for learning and showcasing C skills. In future versions, contributions or suggestions 
