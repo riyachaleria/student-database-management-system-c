@@ -42,9 +42,9 @@ Welcome to the **Student Management Database System**, a menu-driven console app
 
 If you're compiling manually using GCC:
 ```bash
-gcc student.c -o student.exe
+gcc sourcecode.c -o sourcecode.exe
 
-./student.exe
+./sourcecode
 
     Menu Overview
 ----------Main Menu----------
@@ -94,8 +94,8 @@ Instead of modifying the full project, you can generate the hash using a small h
 🛠️ A file called `hash_generator.c` is included in this repository. Compile and run it to get the hashed value of your desired password:
 
 ```bash
-gcc hash_generator.c -o hashgen
-./hashgen
+gcc hash_generator.c -o hash_generater
+./hash_generater
 Enter your new password when needed, and it will give you a hash like:
 
 Hashed value: 7639281883728628837
