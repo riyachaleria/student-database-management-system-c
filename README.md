@@ -21,6 +21,7 @@ Welcome to the **Student Management Database System**, a menu-driven console app
 - ✅ Backup to Binary File
 - ✅ Export to CSV File
 - ✅ Clean and Structured Output
+- ✅ Password-Protected Admin Login (Hashed)
 
 ## 📂 File Structure
 
