@@ -26,12 +26,14 @@ Welcome to the **Student Management Database System**, a menu-driven console app
 
 📁 Student-Management-System/
 │
-├── sourcecode.c ← Main source code 🧠
-├── sourcecode.exe ← Executable file (Windows) ⚙️
-├── README.md ← This beautiful documentation (We Are Here) ✨
-├── studentdata.csv ← Auto-created after CSV export [NOT shared]
-├── studentsdata.bin ← Auto-created after saving records [NOT shared]
-├── backup_history.bin ← Auto-created after backup [NOT shared]
+├── sourcecode.c            ← Main source code 🧠
+├── sourcecode.exe          ← Executable file (Windows) ⚙️
+├── hash_generator.c        ← 🔐 Helper to generate password hash
+├── README.md               ← This beautiful documentation (You're reading it) ✨
+│
+├── studentdata.csv         ← Auto-created after CSV export [NOT shared]
+├── studentsdata.bin        ← Auto-created after saving records [NOT shared]
+├── backup_history.bin      ← Auto-created after backup [NOT shared]
 
 > ⚠️ Only `sourcecode.c` and `sourcecode.exe` are included in the repository.  
 > Your personal `.csv` and `.bin` files remain on your system and are never shared.
@@ -43,7 +45,6 @@ If you're compiling manually using GCC:
 gcc student.c -o student.exe
 
 ./student.exe
-
 
     Menu Overview
 ----------Main Menu----------
