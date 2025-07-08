@@ -35,7 +35,7 @@ Welcome to the **Student Management Database System**, a menu-driven console app
 ├── studentsdata.bin        ← Auto-created after saving records [NOT shared]
 ├── backup_history.bin      ← Auto-created after backup [NOT shared]
 
-> ⚠️ Only `sourcecode.c` and `sourcecode.exe` are included in the repository.  
+> ⚠️ Only `sourcecode.c`,`hash_generater.c` and `sourcecode.exe` are included in the repository. for functionality and customization.   
 > Your personal `.csv` and `.bin` files remain on your system and are never shared.
 
 ## 🔧 Compilation Instructions
